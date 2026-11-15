@@ -4,6 +4,8 @@ A working treasury tool that builds a direct-method, rolling 13-week cash flow f
 
 Everything runs in the browser with no dependencies. All company, customer, vendor and bank data is synthetic.
 
+![Screenshot of the forecast](docs/screenshot.png)
+
 **Live demo:** [salmaadan34-commits.github.io/13-week-cash-flow](https://salmaadan34-commits.github.io/13-week-cash-flow/)
 
 ---

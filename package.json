@@ -1,0 +1,13 @@
+{
+  "name": "13-week-cash-flow-forecast",
+  "version": "1.0.0",
+  "description": "Direct-method 13-week cash flow forecast with scenarios, revolver logic and forecast-vs-actual roll-forward. Synthetic data.",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "data": "node scripts/export-csv.js",
+    "test": "node --test",
+    "start": "node scripts/build.js && npx --yes serve dist"
+  },
+  "engines": { "node": ">=18" }
+}

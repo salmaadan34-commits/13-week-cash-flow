@@ -1,0 +1,22 @@
+customer,invoice,due_date,days_past_due,bucket,balance_usd,base_collection_rate
+Alder & Finch Retail,INV-24117,2026-11-16,0,Current,412500,0.98
+Bluewater Freight,INV-24121,2026-11-19,0,Current,286000,0.98
+Cedar Ridge Clinics,INV-24130,2026-11-27,0,Current,198400,0.98
+Kestrel Aerospace,INV-24133,2026-12-02,0,Current,365000,0.98
+Foxglove Insurance,INV-24140,2026-12-04,0,Current,241750,0.98
+Harbor Lane Hotels,INV-24144,2026-12-07,0,Current,154200,0.98
+Granite Peak Credit Union,INV-24152,2026-12-10,0,Current,318900,0.98
+Ironleaf Foods,INV-24155,2026-12-11,0,Current,97300,0.98
+Juniper Unified Schools,INV-24161,2026-12-14,0,Current,132600,0.98
+Driftline Media,INV-24168,2026-11-18,0,Current,88450,0.98
+Everhart Manufacturing,INV-24062,2026-10-30,14,1–30,214800,0.95
+Lumen Street Bank,INV-24071,2026-11-02,11,1–30,176400,0.95
+Driftline Media,INV-24079,2026-11-06,7,1–30,92150,0.95
+Marlow Dental Group,INV-24085,2026-11-09,4,1–30,118600,0.95
+Juniper Unified Schools,INV-23991,2026-10-05,39,31–60,146300,0.85
+Northgate Property Mgmt,INV-24003,2026-10-12,32,31–60,87900,0.85
+Harbor Lane Hotels,INV-24010,2026-09-28,46,31–60,61200,0.85
+Orchard & Vine Hospitality,INV-23902,2026-09-04,70,61–90,71800,0.6
+Pinecrest Logistics,INV-23915,2026-08-25,80,61–90,42350,0.6
+Quarry Hill Builders,INV-23810,2026-07-20,116,90+,58600,0.25
+Redfern Studios,INV-23797,2026-06-30,136,90+,19750,0.25

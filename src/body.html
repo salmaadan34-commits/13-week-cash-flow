@@ -1,0 +1,85 @@
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><rect x="1" y="1" width="20" height="20" rx="4" fill="var(--accent)"/><path d="M5 15h3v-4H5zM9.5 15h3V7h-3zM14 15h3V9.5h-3z" fill="var(--accent-ink)"/></svg>
+      <span class="co" id="co-name">Halden Systems, Inc.</span>
+      <span class="chip info">Synthetic sample data</span>
+      <span class="chip" id="scenario-chip">Base scenario</span>
+    </div>
+    <h1>13-Week Cash Flow Forecast</h1>
+    <div class="meta">
+      <span>Direct method</span><span>Weeks end Friday</span><span>USD thousands</span><span id="asof">As of Fri, Nov 13, 2026</span>
+    </div>
+    <div class="toolbar">
+      <div class="seg" role="group" aria-label="Scenario" id="seg">
+        <button type="button" data-sc="base" id="sc-base">Base</button>
+        <button type="button" data-sc="downside" id="sc-downside">Downside</button>
+        <span class="custom" id="sc-custom" hidden>Custom</span>
+      </div>
+      <span class="spacer"></span>
+      <button type="button" class="btn primary" id="btn-close">Close week and roll forward</button>
+      <button type="button" class="btn" id="btn-reset">Reset to Nov 13</button>
+    </div>
+  </header>
+
+  <div class="alert" id="alert" role="status"></div>
+
+  <section class="kpis" id="kpis" aria-label="Summary"></section>
+
+  <section class="panel" aria-labelledby="h-chart">
+    <div class="panel-head">
+      <h2 id="h-chart">Ending cash by week</h2>
+      <div class="legend">
+        <span><i style="background:var(--actual)"></i>Actual</span>
+        <span><i style="background:var(--accent)"></i>Forecast</span>
+        <span><i class="pre"></i>Cash before revolver</span>
+        <span><i class="line"></i>Minimum cash</span>
+      </div>
+    </div>
+    <div class="readout" id="readout" aria-live="polite"></div>
+    <div class="chart-wrap" id="chart"></div>
+  </section>
+
+  <section class="panel" aria-labelledby="h-table">
+    <div class="panel-head">
+      <div>
+        <h2 id="h-table">Weekly cash forecast</h2>
+        <p id="table-sub">Forecast weeks F1 to F13. Amounts in USD thousands; outflows shown as positive within disbursements.</p>
+      </div>
+      <button type="button" class="btn small" id="btn-copy">Copy table for Excel</button>
+    </div>
+    <div class="table-scroll" id="table"></div>
+    <p class="table-note">Revolver rule: draw in $250k steps to restore minimum cash; repay in $250k steps once cash exceeds minimum by $1.0M; capped at the $4.0M commitment. Interest at 7.25% on the opening balance each week.</p>
+  </section>
+
+  <div class="cols">
+    <section class="panel" aria-labelledby="h-assump">
+      <div class="panel-head"><h2 id="h-assump">Assumptions</h2><span class="chip warn" id="assump-chip" hidden>Changed from base</span></div>
+      <p class="hint">Edit a value and press Enter or leave the field. Every change is written to the assumptions log.</p>
+      <div class="fields" id="fields"></div>
+    </section>
+
+    <section class="panel" aria-labelledby="h-var">
+      <div class="panel-head">
+        <h2 id="h-var">Forecast vs actual</h2>
+        <p id="var-sub"></p>
+      </div>
+      <div id="variance"></div>
+    </section>
+  </div>
+
+  <section aria-labelledby="h-src" style="display:grid;gap:10px">
+    <div class="panel-head"><h2 id="h-src">Source data</h2><span class="chip">Read-only</span></div>
+    <div id="sources"></div>
+  </section>
+
+  <section class="panel" aria-labelledby="h-ctl">
+    <div class="panel-head"><h2 id="h-ctl">Controls</h2><p>How this tool keeps the numbers trustworthy</p></div>
+    <div class="controls" id="controls"></div>
+    <div class="panel-head" style="margin-top:6px"><h3>Assumptions log</h3><button type="button" class="btn small" id="btn-log" hidden>Show all</button></div>
+    <ul class="log" id="log"></ul>
+  </section>
+
+  <footer>Portfolio demo. Halden Systems and every customer, vendor and figure on this page are fictional. Bank activity for closed weeks is simulated.</footer>
+</div>
+<div class="toast" id="toast" hidden></div>

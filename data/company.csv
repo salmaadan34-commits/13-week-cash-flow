@@ -1,0 +1,8 @@
+item,value
+company,"Halden Systems, Inc."
+as_of_date,2026-11-13
+opening_cash_usd,4750000
+revolver_commitment_usd,4000000
+revolver_rate_pct,7.25
+revolver_increment_usd,250000
+revolver_repay_buffer_usd,1000000

@@ -1,0 +1,24 @@
+billing_date,type,amount_usd,terms_days
+2026-12-01,Subscription,1720000,30
+2027-01-01,Subscription,2950000,30
+2027-02-01,Subscription,1790000,30
+2027-03-01,Subscription,1760000,30
+2026-11-16,Usage & services,105000,30
+2026-11-23,Usage & services,105000,30
+2026-11-30,Usage & services,105000,30
+2026-12-07,Usage & services,105000,30
+2026-12-14,Usage & services,105000,30
+2026-12-21,Usage & services,105000,30
+2026-12-28,Usage & services,105000,30
+2027-01-04,Usage & services,105000,30
+2027-01-11,Usage & services,105000,30
+2027-01-18,Usage & services,105000,30
+2027-01-25,Usage & services,105000,30
+2027-02-01,Usage & services,105000,30
+2027-02-08,Usage & services,105000,30
+2027-02-15,Usage & services,105000,30
+2027-02-22,Usage & services,105000,30
+2027-03-01,Usage & services,105000,30
+2027-03-08,Usage & services,105000,30
+2027-03-15,Usage & services,105000,30
+2027-03-22,Usage & services,105000,30

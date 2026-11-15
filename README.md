@@ -4,10 +4,7 @@ A working treasury tool that builds a direct-method, rolling 13-week cash flow f
 
 Everything runs in the browser with no dependencies. All company, customer, vendor and bank data is synthetic.
 
-![Screenshot of the forecast](docs/screenshot.png)
-<!-- Add a screenshot: open the page, take a full-width capture and save it as docs/screenshot.png -->
-
-**Live demo:** _add your GitHub Pages or demo link here_
+**Live demo:** [salmaadan34-commits.github.io/13-week-cash-flow](https://salmaadan34-commits.github.io/13-week-cash-flow/)
 
 ---
 
@@ -99,7 +96,7 @@ npm run data      # regenerates the CSVs in data/ from the sample data
 
 Open `dist/index.html` in any browser after building. To work on the source files directly, serve the folder (for example `npx serve .`) and open `index.html`.
 
-To publish on GitHub Pages, run `npm run build`, commit `dist/index.html` as `docs/index.html` (or remove `dist/` from `.gitignore`), and point Pages at that folder.
+The live demo is served by GitHub Pages straight from the repository root (`index.html` plus `src/`), so no build step is needed to publish.
 
 ## Project structure
 
